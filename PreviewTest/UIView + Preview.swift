@@ -10,19 +10,20 @@ import SwiftUI
 
 #if DEBUG
 extension UIView {
-    private struct Preview<View: UIView>: UIViewRepresentable {
-        let view: View
-        
-        func makeUIView(context: Context) -> View {
-            return view
-        }
-        
-        func updateUIView(_ uiView: View, context: Context) {
-        }
-    }
     
     func preview() -> some View {
-        Preview(view: self)
+        let viewController = UIViewController()
+        let superView = viewController.view!
+        superView.addSubview(self)
+        
+        self.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            self.centerXAnchor.constraint(equalTo: superView.centerXAnchor),
+            self.centerYAnchor.constraint(equalTo: superView.centerYAnchor),
+            self.leadingAnchor.constraint(greaterThanOrEqualTo: superView.leadingAnchor),
+            self.topAnchor.constraint(greaterThanOrEqualTo: superView.topAnchor),
+        ])
+        return viewController.preview()
     }
 }
 #endif

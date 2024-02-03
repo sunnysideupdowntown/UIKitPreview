@@ -17,6 +17,7 @@
 		26BE9E582B6DE5C9005C315F /* UIViewController + Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE9E572B6DE5C9005C315F /* UIViewController + Preview.swift */; };
 		26BE9E5A2B6DE773005C315F /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE9E592B6DE773005C315F /* RedViewController.swift */; };
 		26BE9E5E2B6DEC19005C315F /* UIView + Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE9E5D2B6DEC19005C315F /* UIView + Preview.swift */; };
+		26BE9E602B6DEE94005C315F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE9E5F2B6DEE94005C315F /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		26BE9E572B6DE5C9005C315F /* UIViewController + Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Preview.swift"; sourceTree = "<group>"; };
 		26BE9E592B6DE773005C315F /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		26BE9E5D2B6DEC19005C315F /* UIView + Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Preview.swift"; sourceTree = "<group>"; };
+		26BE9E5F2B6DEE94005C315F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				26BE9E3B2B6DC6D7005C315F /* SceneDelegate.swift */,
 				26BE9E3D2B6DC6D7005C315F /* MyViewController.swift */,
 				26BE9E592B6DE773005C315F /* RedViewController.swift */,
+				26BE9E5F2B6DEE94005C315F /* CustomView.swift */,
 				26BE9E552B6DDE35005C315F /* MyViewController_SwiftUIView.swift */,
 				26BE9E572B6DE5C9005C315F /* UIViewController + Preview.swift */,
 				26BE9E5D2B6DEC19005C315F /* UIView + Preview.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BE9E582B6DE5C9005C315F /* UIViewController + Preview.swift in Sources */,
+				26BE9E602B6DEE94005C315F /* CustomView.swift in Sources */,
 				26BE9E3E2B6DC6D7005C315F /* MyViewController.swift in Sources */,
 				26BE9E3A2B6DC6D7005C315F /* AppDelegate.swift in Sources */,
 				26BE9E3C2B6DC6D7005C315F /* SceneDelegate.swift in Sources */,
