@@ -16,8 +16,6 @@ class MyViewController: UIViewController {
     }
 }
 
-struct MyViewController_Preview2: PreviewProvider {
-    static var previews: some View {
-        MyViewController().preview()
-    }
+#Preview {
+    MyViewController()
 }

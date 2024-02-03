@@ -16,8 +16,6 @@ class RedViewController: UIViewController {
     }
 }
 
-struct RedViewController_Preview: PreviewProvider {
-    static var previews: some View {
-        RedViewController().preview()
-    }
+#Preview {
+    RedViewController()
 }

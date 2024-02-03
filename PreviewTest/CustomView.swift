@@ -51,10 +51,6 @@ class CustomView: UIView {
     }
 }
 
-
-struct CustomView_Preview: PreviewProvider {
-    static var previews: some View {
-        CustomView()
-            .preview()
-    }
+#Preview {
+    CustomView()
 }
