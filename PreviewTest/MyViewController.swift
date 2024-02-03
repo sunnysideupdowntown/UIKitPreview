@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class MyViewController: UIViewController {
 
@@ -15,6 +16,8 @@ class MyViewController: UIViewController {
     }
 }
 
-//#Preview {
-//    MyViewController()
-//}
+struct MyViewController_Preview2: PreviewProvider {
+    static var previews: some View {
+        MyViewController().preview()
+    }
+}
