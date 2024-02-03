@@ -15,6 +15,7 @@
 		26BE9E462B6DC6D8005C315F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BE9E442B6DC6D8005C315F /* LaunchScreen.storyboard */; };
 		26BE9E562B6DDE35005C315F /* MyViewController_SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE9E552B6DDE35005C315F /* MyViewController_SwiftUIView.swift */; };
 		26BE9E582B6DE5C9005C315F /* UIViewController + Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE9E572B6DE5C9005C315F /* UIViewController + Preview.swift */; };
+		26BE9E5A2B6DE773005C315F /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE9E592B6DE773005C315F /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		26BE9E472B6DC6D8005C315F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26BE9E552B6DDE35005C315F /* MyViewController_SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController_SwiftUIView.swift; sourceTree = "<group>"; };
 		26BE9E572B6DE5C9005C315F /* UIViewController + Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Preview.swift"; sourceTree = "<group>"; };
+		26BE9E592B6DE773005C315F /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				26BE9E392B6DC6D7005C315F /* AppDelegate.swift */,
 				26BE9E3B2B6DC6D7005C315F /* SceneDelegate.swift */,
 				26BE9E3D2B6DC6D7005C315F /* MyViewController.swift */,
+				26BE9E592B6DE773005C315F /* RedViewController.swift */,
 				26BE9E552B6DDE35005C315F /* MyViewController_SwiftUIView.swift */,
 				26BE9E572B6DE5C9005C315F /* UIViewController + Preview.swift */,
 				26BE9E3F2B6DC6D7005C315F /* Main.storyboard */,
@@ -148,6 +151,7 @@
 				26BE9E3E2B6DC6D7005C315F /* MyViewController.swift in Sources */,
 				26BE9E3A2B6DC6D7005C315F /* AppDelegate.swift in Sources */,
 				26BE9E3C2B6DC6D7005C315F /* SceneDelegate.swift in Sources */,
+				26BE9E5A2B6DE773005C315F /* RedViewController.swift in Sources */,
 				26BE9E562B6DDE35005C315F /* MyViewController_SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
